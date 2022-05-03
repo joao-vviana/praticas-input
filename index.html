@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Nosso formulário </h1>
+
+    <form id="formulario-cadastro">
+        <label for="">Nome:</label>
+        <input type="text" id="nome-user" placeholder="Digite o seu nome...">
+        
+        <br><br><br>
+
+        <label for="">Sobrenome:</label>
+        <input type="text" id="sobrenome-user" placeholder="Digite o seu sobrenome...">
+        
+        <br><br><br>
+
+        <label for="">E-mail:</label>
+        <input type="email" name="email-user" id="email-user" placeholder="Digite seu e-mail...">
+       
+        <br><br><br>
+
+        <label for="">Senha:</label>
+        <input type="password"  name="senha-user" id="senha-user" placeholder="Digite a sua senha aqui...">
+        
+        <br><br><br>
+
+        <label for="">Idade:</label>
+        <input type="number" name="idade-user" id="idade-user" min="5" max="25" required>
+        
+        <br><br><br>
+
+        <label for="">Data de Nascimento: </label>
+        <input type="date" name="datanascimento-user" id="datanascimento-user">
+        
+        <br><br><br>
+
+        <label for="">Selecione as tecnologias que você conhece:</label> <br>
+        <input type="checkbox" name="tecnologias" id="tecnologias" value="html"> 
+        <label for="tecnologias">HTML</label>
+        <br>
+        <input type="checkbox" name="tecnologias1" id="tecnologias1" value="css"> 
+        <label for="tecnologias1">CSS</label>
+        <br>
+        <input type="checkbox" name="tecnologias2" id="tecnologias2" value="js" checked> 
+        <label for="tecnologias2">JavaScript</label>
+
+        <br><br><br>
+        
+        <label for="">Selecione a sua atuação: </label> <br>
+        <input type="radio" name="atuacao"> Back-end <br>
+        <input type="radio" name="atuacao"> Front-end <br>
+        <input type="radio" name="atuacao"> Full-Stack
+
+        <br><br><br>
+
+        <label for="curriculo-user">Anexe seu currículo: </label>
+        <input type="file" name="curriculo-user" id="curriculo-user">
+
+        <br><br><br>
+        
+        <label for="cor-favorita">Cor Favorita: </label>
+        <input type="color" name="cor-favorita" id="cor-favorita">
+        
+        <br><br><br>
+
+        <label for="sobre-mim">Texto sobre você: </label> <br>
+        <textarea name="sobre-mim" id="sobre-mim" cols="100" rows="10"></textarea>
+
+        <br><br><br>
+
+        <input type="submit" value="Enviar com Submit">
+        <input type="button" value="Enviar com button">
+
+        <button type="submit">Botão com Submit</button>
+    </form>
+</body>
+</html>
